@@ -80,4 +80,37 @@ T1(-10,-15)
 100%ige Überdeckung durch:
 T1(-10,-15), T2(10,15)
 
+## Task 4
 
+```
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
+public class MinMaxCalculatorTest {
+    private int[] testArray1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    private int[] testArray2 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+
+    @Test
+    public void getMax() throws Exception {
+        MinMaxCalculator t1 = new MinMaxCalculator(testArray1);
+        MinMaxCalculator t2 = new MinMaxCalculator(testArray2);
+        assertEquals(10, t1.getMax());
+        assertEquals(10, t2.getMax());
+    }
+
+    @Test
+    public void getMin() throws Exception {
+        MinMaxCalculator t1 = new MinMaxCalculator(testArray1);
+        MinMaxCalculator t2 = new MinMaxCalculator(testArray2);
+        assertEquals(1, t1.getMin());//fails, because the array iteration begins at 1
+        assertEquals(1, t2.getMin());
+    }
+
+    @Test
+    public void main() throws Exception {
+
+    }
+}
+
+```
