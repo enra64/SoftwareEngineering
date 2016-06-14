@@ -50,7 +50,6 @@ Im Gegensatz zum Black-Box-Test ist für diesen Test also ein Blick in den Quell
 
 * Black-Box für Fehlerfindung gegenüber der Spezifikation
 
----
 * Beispiel: PKeS
  * Black-Box - macht der Bot was er soll? (einzelne Fehler kompensieren sich)
  * White-Box - ob einzelne Teilfunktionen funktionieren
@@ -61,7 +60,7 @@ Im Gegensatz zum Black-Box-Test ist für diesen Test also ein Blick in den Quell
  
 ![Imgur](http://i.imgur.com/pxRaMgG.png)
 
-#### a) Zyklomatische Komplexität (sollte nie größer als 10 sein)
+##### a) Zyklomatische Komplexität (sollte nie größer als 10 sein)
 
 C = #Kanten - #Nodes + 2*#Funktionen
 
@@ -69,13 +68,13 @@ C = 14 - 11 + 2*0
 
 C = 3 
 
-#### b) Testfälle für die Statement Coverage
+##### b) Testfälle für die Statement Coverage
 „Jedes Statement/Knoten wurde einmal besucht.“
 
 100%ige Überdeckung durch:
 T1(-10,-15)
 
-#### c) Testfälle für die Decision Coverage
+##### c) Testfälle für die Decision Coverage
 „Jeder Zweig/Kante wurde einmal besucht.“
 
 100%ige Überdeckung durch:
