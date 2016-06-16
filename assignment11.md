@@ -49,9 +49,9 @@ Programmierung nicht ausreichte
   
 ## TASK 2
 ### Version Control System
-#### <u> Definition </u>
+#### Definition
 
-#### Zentrale VCS
+##### Zentrale VCS
 * Zentrale Kopie des gesamten Projekts auf Server
 * durch Rechteverwaltung wird dafür gesorgt, dass nur berechtigte Personen neue Versionen in das Archiv legen können
 * Versionsgeschichte ist hierbei nur im Repository vorhanden
@@ -105,7 +105,7 @@ _ Ausnahme: pushing und pulling zum Server _
 
 ### Softwaremetriken
 
-##### Beispiele
+#### Beispiele
 
 __*Größenmetriken*__
 * Bsp.: Lines of Code
@@ -117,7 +117,7 @@ __*Komplexitätsmetriken*__
 * Bsp.: McCabe Cyclomatic Complexity
 
 
-##### Metrik-Berechnung wie und am Beispiel zeigen
+#### Metrik-Berechnung wie und am Beispiel zeigen
 
 __*Größenmetriken*__
 * Lines of Code(LOC) zählt die (ausführbaren) Codezeilen eines Programms
@@ -138,7 +138,7 @@ __*Komplexitätsmetriken*__
 * Berechnung am Beispiel: Siehe Übung 10.3 a) => C = 14 - 11 + 2*1 = 5
 
 
-##### Vor- bzw. Nachteile
+#### Vor- bzw. Nachteile
 
 __*Größenmetriken (LOC)*__
 * Vorteile:
