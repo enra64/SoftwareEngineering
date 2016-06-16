@@ -64,9 +64,9 @@ Im Gegensatz zum Black-Box-Test ist für diesen Test also ein Blick in den Quell
 
 C = #Kanten - #Nodes + 2*#Funktionen
 
-C = 14 - 11 + 2*0
+C = 14 - 11 + 2*1
 
-C = 3 
+C = 5 
 
 ##### b) Testfälle für die Statement Coverage
 „Jedes Statement/Knoten wurde einmal besucht.“
