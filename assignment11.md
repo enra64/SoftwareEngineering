@@ -121,7 +121,7 @@ __*Komplexitätsmetriken*__
 
 __*Größenmetriken*__
 * Lines of Code(LOC) zählt die (ausführbaren) Codezeilen eines Programms
-* Komentare etc. werden nicht mit hinein gezählt
+* Kommentare etc. werden nicht mit hinein gezählt
 * Berechnung am Beispiel: Siehe Übung 10.3 => Lines of Code = 12
 
 __*Strukturmetriken*__
@@ -146,7 +146,7 @@ __*Größenmetriken (LOC)*__
  * starke Korrelation mit anderen Maßen
 
 * Nachteile:
- * ignoriert Komplexit¨at von Anweisungen und Strukturen
+ * ignoriert Komplexität von Anweisungen und Strukturen
  * schlecht vergleichbar
 
 __*Strukturmetriken (Eigenschaften Graph)*__
