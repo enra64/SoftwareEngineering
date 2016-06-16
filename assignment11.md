@@ -1,9 +1,10 @@
 ## TASK 1
 ### Fehlerkategorien
 
-#### <u> Compilerfehler </u>
+#### Compilerfehler
 Fehler in der Sprache, die den Compiler daran
 hindern, dass Programm zu übersetzen
+
 ##### Behebung
 * Compiler Errors vor Ausführung des Codes bemerkbar
 * Lassen sich (meist) auf eine präzise Codezeile zurückverfolgen
@@ -13,10 +14,11 @@ hindern, dass Programm zu übersetzen
   * Typos
   * Klammersetzung
   * Typsystemfehler
----
-#### <u> Laufzeitfehler </u>
+
+#### Laufzeitfehler
 Fehler, die während der Ausführung des Codes auftreten.
 Laufzeitfehler werden in der Regel automatisch erkannt.
+
 ##### Behebung
 * Bei Auftreten des Problems kommt i.d.R eine Exception
 * Stacktrace der Exception gibt Aufschluss über den Context (Call-Reihenfolge)
@@ -27,10 +29,12 @@ Laufzeitfehler werden in der Regel automatisch erkannt.
   * Value out of Range
   * Division by Zero
   * Null Pointer References
----
-#### <u> Logische Fehler </u>
+
+
+#### Logische Fehler
 Fehler, bei denen sich das Programm nicht wie
 erwartet verhält. Kein Fehler im Code, sondern im Verständnis des Programmierers.
+
 ##### Behebung
 * Fehler entsteht, weil das Codeverständnis bei der
 Programmierung nicht ausreichte
