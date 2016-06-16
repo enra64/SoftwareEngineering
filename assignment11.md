@@ -100,6 +100,66 @@ _ Ausnahme: pushing und pulling zum Server _
   * OpenSource
   * 
  
+## TASK 3
+#### JIRA
+
+Pros:
+* good web based user interface
+* plug-in structure
+* Backed up by a big company which delivers support for their product.
+* IDE integration
+	
+Cons:
+
+* Difficult user interface, workflow creation process, customization is possible, but complicated. Too many options for new users.
+* Modifications made are not showing up straight away.
+* Not possible to create sub-projects, only components
+
+
+#### Redmine
+
+Pros:
+
+* It's open source and completely free to use.
+* Wiki for each project out of the box.
+* Per project user forums.
+* Better performance when properly deployed (in my experience).
+* Fewer clicks to get stuff done 
+* Better UI
+* better time logging
+* If you need new functionality, you can implement it yourself or ask a paid developer to make a plugin for you.
+* Same goes for bugfixing. As far as I can tell, you can get a bug fixed really quickly, if you just pay someone to do it.
+* E-mail integration is easy to set up.
+* Clean support for sub-projects 
+* Possible to do budgeting and in-voice reports
+* Possible to do resource (people) planning / scheduling
+
+Cons:
+
+* No notification Schemes. Only possible to notify about changes, no escalation.
+* No issue Security Schemes. Not possible to define, which issue trackers can be seen for each role.
+* Not possible to start issue from project and select subproject to which issue is related
+* Estimated time for issue has poor functionallity. 
+* Most of fields in Redmine have no autofill/Ajax based.
+* Custom fields have only 7 types. JIRA allows 23 types, including possibility to create "User Picker" and many multi-level fields.
+* Activity logs have no filters/tabs, you can't see all activity on current issue in one page
+* Can't comment on issues
+* Not possible to set conditions to control who can perform a issue status change, and under what circumstances
+* No screen configuration, that can be used to select which fields will appear when this screen is displayed, and how the fields are split between tabs. Each issue status can have different screen at JIRA.
+
+#### Bugzilla
+
+Pros:
+
+* better with large bug databases
+* flags/requests
+* advanced search function
+* free open source
+
+Cons:
+
+* confusing user interface
+
 
 ## TASK 5
 
