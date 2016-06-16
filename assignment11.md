@@ -222,3 +222,25 @@ __*Komplexitätsmetriken (McCabe)*__
  * Ablauf-Komplexität wird gemessen
 * Nachteile:
  * Modulkomplexität wird nicht berücksichtigt
+
+
+## TASK 6
+
+### Buildserver
+
+#### Vorteile:
+* gemeinsamer Build:
+	* keine fehlenden Bibliotheken
+* fokusieren die Aufgaben des Builds:
+	* updating
+	* distribution packaging erstellen
+	* automatisierte tests
+	* reports
+* koordinieren Entwicklung:
+	* Versionierungskontrollserver ist Herz
+	* besseres Mergen
+	* gibt Informationen über Fehlerhafte "pushes"
+
+
+#### Vergleiche zwischen Buildservern
+https://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software
