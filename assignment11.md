@@ -94,3 +94,68 @@ _ Ausnahme: pushing und pulling zum Server _
   * Git ist sehr gut, sehr schnell, sehr geil
   * GitHub
   * OpenSource
+  * 
+ 
+
+# TASK 5
+
+## Softwaremetriken
+
+#### Beispiele
+
+__*Größenmetriken*__
+* Bsp.: Lines of Code
+
+__*Strukturmetriken*__
+* Bsp.: Eigenschaften des Kontrollflussgraphen
+
+__*Komplexitätsmetriken*__
+* Bsp.: McCabe Cyclomatic Complexity
+
+
+#### Metrik-Berechnung wie und am Beispiel zeigen
+
+__*Größenmetriken*__
+* Lines of Code(LOC) zählt die (ausführbaren) Codezeilen eines Programms
+* Komentare etc. werden nicht mit hinein gezählt
+* Berechnung am Beispiel: Siehe Übung 10.3 => Lines of Code = 12
+
+__*Strukturmetriken*__
+* Zählt die Knoten, Kanten oder die Tiefe des Kontrollflussgraphen
+* Berechnung am Beispiel: Siehe Übung 10.3 =>
+ * #Knoten = 11
+ * #Kanten = 14
+ * Min. Tiefe = 5
+ * Max. Tiefe = 7
+
+__*Komplexitätsmetriken*__
+* McCabe basiert auf Kontrollflussgraph
+*  C = #Kanten - #Knoten + 2 * #Funktionen
+* Berechnung am Beispiel: Siehe Übung 10.3 a) => C = 14 - 11 + 2*1 = 5
+
+
+#### Vor- bzw. Nachteile
+
+__*Größenmetriken (LOC)*__
+* Vorteile:
+ * relativ einfach messbar
+ * starke Korrelation mit anderen Maßen
+
+* Nachteile:
+ * ignoriert Komplexit¨at von Anweisungen und Strukturen
+ * schlecht vergleichbar
+
+__*Strukturmetriken (Eigenschaften Graph)*__
+* Vorteile:
+ * einfach messbar
+ * Ausgangspunkt für andere Metriken (z.B. McCabe)
+* Nachteile:
+ * Ablauf-Komplexität wird nicht gemessen
+ * gut vergleichbar 
+
+__*Komplexitätsmetriken (McCabe)*__
+* Vorteile:
+ * einfach zu berechnen
+ * Ablauf-Komplexität wird gemessen
+* Nachteile:
+ * Modulkomplexität wird nicht berücksichtigt
