@@ -93,12 +93,11 @@ _ Ausnahme: pushing und pulling zum Server _
 
 ---
 ### Persönlicher Favorit
-* ** GIT **
-* ##### Gründe
-  * Git ist sehr gut, sehr schnell, sehr geil
-  * GitHub
-  * OpenSource
-  * 
+* *GIT*
+  * _Gründe:_
+  	* Git ist sehr gut, sehr schnell, sehr geil
+  	* GitHub
+  	* OpenSource
  
 ## TASK 3
 #### JIRA
