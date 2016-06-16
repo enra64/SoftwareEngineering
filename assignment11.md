@@ -93,8 +93,8 @@ _ Ausnahme: pushing und pulling zum Server _
 
 ---
 ### Persönlicher Favorit
-* *GIT*
-  * _Gründe:_
+* __GIT__
+  * _**Gründe:**_
   	* Git ist sehr gut, sehr schnell, sehr geil
   	* GitHub
   	* OpenSource
