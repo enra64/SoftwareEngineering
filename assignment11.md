@@ -223,6 +223,48 @@ __*Komplexitätsmetriken (McCabe)*__
 * Nachteile:
  * Modulkomplexität wird nicht berücksichtigt
 
+# TASK 4: Vergleich von Logging-Lösungen
+
+## Übersicht:
+Im Grunde unterscheiden sich die Logging-Frameworks kaum. Alle können durch die **SL4J** (Simple Logging for Java) Facade maskiert werden, so dass sich für den Programmierer noch weniger unterscheidet. 
+Letzten Endes basiert die Entscheidung auf den eigenen Vorlieben (und insbesondere darauf was das Projekt bis jetzt verwendet hat), eine allgemeine Empfehlung kann nicht gegeben werden. Für einfache Logging-Zwecke ist vermutlich die Java Logging API am geeignetesten, damit keine zusätzlichen Daten geladen werden müssen.
+
+## Detaillierterer Vergleich:
+
+### log4j
+* 6 unterstützte log-level
+* Lizenz: Apache 2.0
+* Speicherbedarf:
+  * Vermutlich etwas größer als Logback, und es muss allerdings im Gegensatz zu der Java logging API, die Java selbst benutzt, seperat geladen werden.
+* Bedienbarkeit:
+  * Konfiguration: Über eine *log4j.properties* oder eine XML-Datei o.ä.
+* Nachteile:
+  * Gründer arbeitet jetzt an **Logback** weiter.
+
+## java.util.logging
+* Standard-Implementation der Java-Logging-API
+* 7 unterstützte log-level
+* Speicherbedarf:
+  * Sehr klein, da schon in java vorhanden.
+* Bedienbarkeit:
+  * Konfiguration: Die Konfiguration kann über die *logging.properties* mehr oder weniger trivial gesteuert werden.
+* Vorteile:
+  * Bei java mit dabei
+* Nachteile:
+  * Nicht intuitive log-level (FINE, *FINER*, **FINEST**)
+  * Nicht immer schöne API, man muss zum Beispiel logger.log(Level.SEVERE, "abc", exception) benutzen anstatt einer logger.severe("abc", exception)-Funktion.
+  * Mögliche Schwierigkeiten beim einbinden verschiedener log-config-Dateien für verschiedene Projekte
+
+## Logback
+* Nachfolger von log4j unter Eclipse Public License v1.0
+* 6 unterstützte log-level
+* Speicherbedarf:
+  * Es muss im Gegensatz zu java.util.logging, das Java selbst benutzt, seperat geladen werden. Nach eigenen Angaben kleiner als log4j.
+* Bedienbarkeit:
+  * Konfiguration: Die Konfiguration kann über eine *logback.xml* oder eine *logback.groovy* mehr oder weniger trivial gesteuert werden.
+  * Automatisches Konfigurationsupdate aus den config-Dateien.
+* Vorteile:
+  * Schneller und kleiner als log4j (laut Entwicklern)
 
 ## TASK 6
 
